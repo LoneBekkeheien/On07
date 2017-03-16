@@ -8,7 +8,7 @@
 int last_floor = N_FLOORS + 1;
 int last_dir = N_FLOORS + 1;
 
-void run_elevator() {
+void fsm_run_elevator() {
 
     int floor = elev_get_floor_sensor_signal();
     if(floor != -1){ //Unngår å sette etasjeindikatoren når heisen ikke er i en etasje 
