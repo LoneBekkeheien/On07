@@ -11,7 +11,7 @@ int main() {
     elevator_init(); 
     
     while (1) {
-		run_elevator(); 
+		fsm_run_elevator(); 
 	}
 	return 0;
 };
