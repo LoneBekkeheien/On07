@@ -2,7 +2,7 @@
 
 
 //Kjører heis-programmet
-void run_elevator(); 
+void fsm_run_elevator(); 
 
 enum state{
     IDLE,
