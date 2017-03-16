@@ -1,5 +1,5 @@
 #pragma once
-#include "Elevmodule.h"
+
 
 //Kjører heis-programmet
 void run_elevator(); 
